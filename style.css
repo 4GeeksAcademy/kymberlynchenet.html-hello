@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+}
+
+
+.post-header {
+    padding: 20px;
+    display: flex;
+}
+
+
+.logo i  {
+    font-size: 40px;
+
+}
+
+.header-text {
+
+    margin-left: 10px;
+}
+
+.header-text h1 {
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.points {
+    margin-left: auto;
+}
+.points  i {
+   font-size: 50px;
+}
+
+
+
+img {
+   width: 100%;
+}  
+
+.icons {
+    display: flex;
+}
+.icons1 i {
+ font-size: 30px;
+
+}
+
+.icons2 {
+   font-size: 30px;
+   margin-left: auto;
+}
+
+
