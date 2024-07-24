@@ -1,27 +1,43 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin: 50px;
 }
+.container {
+    padding-top: 50px;
+    padding-bottom: 800px;
+    padding-right: 600px;
+    padding-left: 600px;
+    display: flex;
+    justify-content: center;
+}
 
+.post-body {
+    padding-left: 20px;
+    padding-right: 15px;
+}
 
+.feed {
+    background-color: rgb(255, 255, 255);
+}
 .post-header {
     padding: 20px;
+    padding-bottom: 12px;
     display: flex;
 }
 
 
 .logo i  {
-    font-size: 40px;
-
+    font-size: 35px;
 }
 
 .header-text {
 
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .header-text h1 {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0px;
 
 }
@@ -30,7 +46,7 @@ body{
     margin-left: auto;
 }
 .points  i {
-   font-size: 50px;
+   font-size: 40px;
 }
 
 
@@ -41,6 +57,7 @@ img {
 
 .icons {
     display: flex;
+    padding-top: 15px;
 }
 .icons1 i {
  font-size: 30px;
@@ -50,6 +67,9 @@ img {
 .icons2 {
    font-size: 30px;
    margin-left: auto;
+   padding-right: 15px;
 }
 
-
+.fa-regular {
+    padding-right: 10px;
+}
